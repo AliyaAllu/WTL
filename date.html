@@ -1,0 +1,16 @@
+<html>
+<body>
+   <div id="date"> </div>
+   
+   <script type="text/javascript">
+      let date = document.getElementById("date");
+	  let newDate = new Date();
+      let year = newDate.getFullYear();
+      let month = newDate.getMonth()+1;
+      let todaySDate = newDate.getDate();
+      date.innerHTML = " " + todaySDate + "/ " + month + "/ " + year;
+	  
+     
+   </script>
+</body>
+</html>

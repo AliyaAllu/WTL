@@ -1,0 +1,15 @@
+
+body {
+  background-color: powderblue;
+}
+h1 {
+  color: blue;
+}
+
+div {
+	
+	text-align: center;
+	color :red;
+	border: 5px solid powderblue;
+  margin: 10px;
+	}

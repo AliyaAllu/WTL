@@ -1,0 +1,21 @@
+<html>  
+<body>  
+<script>   
+const num = parseFloat(prompt ('Enter the number: '));  
+function reverse(num)
+{
+let r;
+let rev=0;
+while(num!=0)
+{
+r=num/10;
+rev=rev*10+r;
+num=num%10;
+}
+
+window.alert("Reverse is" +rev);  
+}
+</script>  
+</body>  
+</html>
+  
